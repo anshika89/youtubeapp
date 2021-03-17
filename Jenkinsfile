@@ -10,5 +10,11 @@ echo "npm start"
       }
     }
 
+    stage('Stage 2') {
+      steps {
+        echo '"stage 2 "'
+      }
+    }
+
   }
 }
