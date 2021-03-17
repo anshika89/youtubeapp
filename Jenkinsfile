@@ -1,9 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('error') {
+    stage('Stage 1') {
       steps {
         sh '''echo "Stage 1"
+echo "npm start"
 '''
         echo '"Stage 2 using Print Message function"'
       }
