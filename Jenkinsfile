@@ -1,10 +1,11 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
         sh '''echo "Stage 1"
-echo "welcome to youtube app"'''
+'''
+        echo '"Stage 2 using Print Message function"'
       }
     }
 
