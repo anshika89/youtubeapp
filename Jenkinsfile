@@ -10,7 +10,4 @@ pipeline {
     }
 
   }
-  environment {
-    user_name = 'anshika'
-  }
 }
